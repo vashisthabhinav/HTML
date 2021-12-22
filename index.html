@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name ="viewport" content="width=device-width", initial scale ="1.0" />
+  <!-- Meta tags are pieces of information you use to tell the search engines and those viewing your site more about your page and the information it contains.
+  Meta tags include:
+  Title tags: the title of your page, which should be unique for every page you publish.
+  Meta description: a description of the content on the page. -->
+  <title>Abhinav's Personel Site</title>
+
+</head>
+
+<body>
+  <h1>Abhinav Vashisth</h1>
+  <p><em>2nd Year Student doing B.Tech. Chemical Engineering in <strong>NIT Hamirpur</strong> </em> </p>
+  <p> I am Abhinav Vashisth.</p>
+  <hr size="2" noshade>
+  <h3>About</h3>
+  <ul>
+    <li>first item</li>
+    <li>second item
+      <!-- Look, the closing </li> tag is not placed here! -->
+      <ul>
+        <li>second item first subitem</li>
+        <li>second item second subitem
+          <!-- Same for the second nested unordered list! -->
+          <ul>
+            <li>second item second subitem first sub-subitem</li>
+            <li>second item second subitem second sub-subitem</li>
+            <li>second item second subitem third sub-subitem</li>
+          </ul>
+        </li>
+        <!-- Closing </li> tag for the li that
+                  contains the third unordered list -->
+        <li>second item third subitem</li>
+      </ul>
+      <!-- Here is the closing </li> tag -->
+    </li>
+    <li>third item</li>
+  </ul>
+  <ul>
+    <li>first item</li>
+    <li>second item
+      <!-- Look, the closing </li> tag is not placed here! -->
+      <ol>
+        <!--ol is the ordered list (Listing using numbers)
+    While ul uses bullets for listing -->
+        <li>second item first subitem</li>
+        <li>second item second subitem</li>
+        <li>second item third subitem</li>
+      </ol>
+      <!-- Here is the closing </li> tag -->
+    </li>
+    <li>third item</li>
+  </ul>
+  <ol type="i">
+    <!-- type i means list using Roman Numerals-->
+    <li>Introduction</li>
+    <li>List of Greivances</li>
+    <li>Conclusion</li>
+  </ol>
+  <hr>
+  <h3>Links Demo</h3>
+  <a href="https://www.google.com/"target="_blank"> Google </a><br>
+  <hr>
+  <a href="https://github.com/vashisthabhinav" target="_blank">
+    <img width="300px" height="300px" src="https://cdn.worldvectorlogo.com/logos/av-bros-32452.svg" alt="AV">
+  </a>
+  
+  <table border="4" width="100%">
+    <h2>TEAMS</h2>
+    <thead>
+      <th>Team Name</th>
+      <th>Year</th>
+      <th>No of people</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tech Nexus</td>
+        <td>2021</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>App</td>
+        <td>2022</td>
+        <td>21</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Student's Registration Page</h2>
+  <form action = "any_backend_code">
+    
+    Student name: <input type="text" name="st_name" placeholder="Enter your Name"> <br><br>
+    Student age: <input type="number" name="st_age"> <br><br>
+    Are you above 18: <input type="checkbox" name="st_eligibility"> <br><br>
+    <!-- Name in the input is given the same(st_gender in the below case) so that only one of the three options can be selected at one time. -->
+    Gender: Male <input type="radio" name="st_gender">
+    Gender: Female <input type="radio" name="st_gender">
+    Gender: Other <input type="radio" name="st_gender"><br><br>
+    DOB: <input type="date" name="st_date"><br><br>
+    Password: <input type="password" name="st_password"><br> <br>
+    Education Description: <br> <textarea name="st_education" cols="50" rows="5"></textarea> <br><br>
+    <div>
+      Qualification: 
+    <select name="st_qualification">
+      <option value="Graduate">Graduate</option>
+      <option value="Under Graduate">Under Graduate</option>
+      <option value="Post Graduate">Post Graduate</option>
+    </select>
+    </div> <br>
+    Submit: <input type="submit" value="Submit"> <br> <br>
+    <input type="reset" value="Reset">
+  </form>
+</body>
+
+</html>
