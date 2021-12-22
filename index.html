@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name ="viewport" content="width=device-width", initial scale ="1.0" />
+  <meta name="viewport" content="width=device-width" , initial scale="1.0" />
   <!-- Meta tags are pieces of information you use to tell the search engines and those viewing your site more about your page and the information it contains.
   Meta tags include:
   Title tags: the title of your page, which should be unique for every page you publish.
@@ -64,12 +64,12 @@
   </ol>
   <hr>
   <h3>Links Demo</h3>
-  <a href="https://www.google.com/"target="_blank"> Google </a><br>
+  <a href="https://www.google.com/" target="_blank"> Google </a><br>
   <hr>
   <a href="https://github.com/vashisthabhinav" target="_blank">
     <img width="300px" height="300px" src="https://cdn.worldvectorlogo.com/logos/av-bros-32452.svg" alt="AV">
   </a>
-  
+
   <table border="4" width="100%">
     <h2>TEAMS</h2>
     <thead>
@@ -91,10 +91,11 @@
     </tbody>
   </table>
   <h2>Student's Registration Page</h2>
-  <form action = "any_backend_code">
-    
-    Student name: <input type="text" name="st_name" placeholder="Enter your Name"> <br><br>
-    Student age: <input type="number" name="st_age"> <br><br>
+  <form action="any_backend_code">
+    <label for="st_name">Student name:</label>
+    <input id="st_name" type="text" name="st_name" placeholder="Enter your Name"> <br><br>
+    <label for="st_age">Student age: </label>
+    <input id="st_age" type="number" name="st_age" placeholder="Enter your Age"> <br><br>
     Are you above 18: <input type="checkbox" name="st_eligibility"> <br><br>
     <!-- Name in the input is given the same(st_gender in the below case) so that only one of the three options can be selected at one time. -->
     Gender: Male <input type="radio" name="st_gender">
@@ -104,12 +105,12 @@
     Password: <input type="password" name="st_password"><br> <br>
     Education Description: <br> <textarea name="st_education" cols="50" rows="5"></textarea> <br><br>
     <div>
-      Qualification: 
-    <select name="st_qualification">
-      <option value="Graduate">Graduate</option>
-      <option value="Under Graduate">Under Graduate</option>
-      <option value="Post Graduate">Post Graduate</option>
-    </select>
+      Qualification:
+      <select name="st_qualification">
+        <option value="Graduate">Graduate</option>
+        <option value="Under Graduate">Under Graduate</option>
+        <option value="Post Graduate">Post Graduate</option>
+      </select>
     </div> <br>
     Submit: <input type="submit" value="Submit"> <br> <br>
     <input type="reset" value="Reset">
